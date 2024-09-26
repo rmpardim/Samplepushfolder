@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<title>Calculate Number of Years Deposit Until 1,000,000</title> 
+	<style>
+      	body {
+        background-image: url('danielle-suijkerbuijk-I2EDlv2elio-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      	}
+		#message {
+        	font-size: large;
+        	background-color: rgb(167, 236, 161);
+        	font-weight: bold;
+			width: 500px;
+			margin-left: 30px;
+  			border: 20px solid #73AD21;
+        }
+		h1 {
+		  font-size: x-large;
+		  background-color: aqua;
+		}
+		p {
+		  font-size: large ;
+   
+		}
+
+		label {
+		  font-size: large;
+		  font-weight: bold;
+		}
+		button {
+		  font-size: x-large;
+		  font-weight: bold;
+		}
+  
+		input {
+		  font-size: large;
+		  background-color: rgb(254, 251, 146);
+		  font-weight: bold;
+		}
+	  </style>
+	<script src="WhileLoopExQ1.js"></script>
+</head>
+
+<body>
+<h1>Calculate Number of Years for Deposit to reach $1,000,000</h1>
+<p>Enter Deposit Amount</p>
+<form action="#" method="post" id="numbDep1000000Form" onsubmit="return CalculateYearsDep(Deposit.value)">
+	
+	<p>
+		<label>Enter Deposit Amount:</label>
+        <input id="Deposit">
+		
+	</p>
+
+	<p>
+		<input value="Submit Form" type="submit">
+
+	</p>
+
+
+    
+</form>
+	<div id="message"></div>
+	
+</body>
+</html>
